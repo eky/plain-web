@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 2,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+		"targets": {
+            "ie": 11
+        },
+        "useBuiltIns": "entry"
+      }
+	]
+  ]
+}

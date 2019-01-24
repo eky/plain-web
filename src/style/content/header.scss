@@ -1,0 +1,7 @@
+.header {
+	@extend .main-header;
+
+	padding: 1rem;
+	text-align: center;
+	background-color: var(--color-header-background);
+}

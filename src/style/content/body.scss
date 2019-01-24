@@ -1,0 +1,18 @@
+.main-body {
+	padding: 2rem;
+	text-align: center;
+}
+
+.pig {
+	font-size: 30px;
+}
+
+@keyframes rotation {
+	from { transform: scale(1); }
+	to { transform: scale(.9); }
+}
+
+.pig-image {
+	width: 120px;
+	animation: rotation .4s ease-in-out infinite alternate;
+}

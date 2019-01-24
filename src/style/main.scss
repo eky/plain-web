@@ -1,0 +1,18 @@
+// Generals
+@import '~@csstools/normalize.css';
+@import './colors';
+@import './fonts';
+@import './global';
+
+body {
+	position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+// Content
+@import './content/header.scss';
+@import './content/footer.scss';
+@import './content/body.scss';

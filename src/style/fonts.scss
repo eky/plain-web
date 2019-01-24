@@ -1,0 +1,27 @@
+@font-face {
+	font-family: DancingScript;
+	src: url('../fonts/Dancing_Script/DancingScript-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+.main-header {
+	font-size: 3rem;
+}
+
+.sub-header {
+	font-size: 2rem;
+}
+
+.body-text {
+	font-size: 1.5rem;
+}
+
+.fancy-text {
+	font-family: DancingScript, Arial, 'sans-serif';
+}
