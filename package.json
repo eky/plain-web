@@ -1,6 +1,6 @@
 {
 	"name": "plain-web",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "This is a boilerplate for simple web project need modern tooling and no overkill framework",
 	"scripts": {
 		"start": "cross-env NODE_ENV=development webpack-dev-server --content-base=./dist --open --open-page=./ --inline --watch --hot",
@@ -48,6 +48,7 @@
 		"pug-loader": "^2.4.0",
 		"sass-loader": "^7.1.0",
 		"style-loader": "0.23.1",
+		"stylelint": "^9.10.1",
 		"uglifyjs-webpack-plugin": "^2.0.1",
 		"webpack": "^4.20.2",
 		"webpack-cli": "^3.1.2",
