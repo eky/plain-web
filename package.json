@@ -1,10 +1,12 @@
 {
 	"name": "plain-web",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "This is a boilerplate for simple web project need modern tooling and no overkill framework",
 	"scripts": {
 		"start": "cross-env NODE_ENV=development webpack-dev-server --content-base=./dist --open --open-page=./ --inline --watch --hot",
-		"build": "cross-env NODE_ENV=production webpack --watch"
+		"build": "cross-env NODE_ENV=production webpack --watch",
+		"stylelint-fix": "stylelint \"src/**/*.scss\" --fix",
+		"eslint-fix": "eslint \"src/**/*.js\" --fix"
 	},
 	"author": "Eky Kwan <eky@eky.hk>",
 	"homepage": "https://github.com/eky/plain-web#readme",
